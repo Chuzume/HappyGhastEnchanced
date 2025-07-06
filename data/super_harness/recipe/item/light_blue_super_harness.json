@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "super_harness",
+  "category": "equipment",
+  "pattern": [
+    "#RL",
+    "BGC",
+    "MYD"
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "R": "minecraft:iron_ingot",
+    "L": "minecraft:iron_ingot",
+    "B": "minecraft:gold_ingot",
+    "G": "minecraft:light_blue_harness",
+    "C": "minecraft:gold_ingot",
+    "M": "minecraft:feather",
+    "Y": "diamond",
+    "D": "minecraft:feather"
+  },
+  "result": {
+    "id": "minecraft:light_blue_harness",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "空色の強化ハーネス",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:flying_speed",
+          "id": "flying_speed",
+          "amount": 0.025,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "染色すると普通のハーネスに戻ってしまう",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantment_glint_override": true
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
