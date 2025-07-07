@@ -19,7 +19,7 @@
     "D": "minecraft:feather"
   },
   "result": {
-    "id": "minecraft:lime_harness",
+    "id": "minecraft:purple_harness",
     "components": {
         "minecraft:custom_name": {
             "text": "紫色の強化ハーネス",
