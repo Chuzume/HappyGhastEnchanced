@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:brown_harness"
+            "items": "minecraft:green_harness"
           }
         ]
       },
@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "super_harness:brown_super_harness"
+      "super_harness:green_super_harness"
     ]
   }
 }
